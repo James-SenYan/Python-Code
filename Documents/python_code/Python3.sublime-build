@@ -1,0 +1,7 @@
+{
+	"cmd": ["/usr/bin/python", "-u", "$file"],//这里填写想要使用的Python3路径
+	"file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+	"selector": "source.python",
+	"env": {"LANG": "en_US.UTF-8"}
+}
+ 
